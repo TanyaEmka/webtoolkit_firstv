@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+header {
+    position: absolute;
+    color: white;
+}
+
+header .main_page {
+    padding: 1em;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    background-image: url("../images/MainPage.svg");
+    background-size: 100%;
+}
+
+main {
+    padding-top: 2em;
+    color: white;
+    background: linear-gradient(180deg, #232837 0%, #3B4B5F 100%);
+}
+
+main .user {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: end;
+    text-align: center;
+}
+
+main .user .settings {
+    margin: 1vh;
+    margin-left: 3vh;
+    width: 3em;
+}
+
+main .user .add_work {
+    margin: 1vh;
+    margin-right: 3vh;
+    width: 3em;
+}
+
+main .user .user_info {
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+main .user .user_info .avatar {
+    width: 7em;
+}
+
+main .user .user_info .other {
+    padding: 0;
+}
+
+main .user .settings img, main .user .add_work img, main .user .user_info img {
+    width: 100%;
+}
+
+main .options {
+    display: flex;
+    flex: 1;
+}
+
+main .options .option {
+    width: 50%;
+    text-align: center;
+    padding: 0.5em;
+}
+
+main .options .select_op {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+main .content {
+    height: 100vh;
+    background: linear-gradient(180deg, #323540 0%, #394A5D 100%);
+}
